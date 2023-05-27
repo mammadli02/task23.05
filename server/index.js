@@ -5,10 +5,8 @@ const cors=require('cors')
 app.use(cors())
 app.use(bodyParser())
 app.use(bodyParser.urlencoded({ extended: false }));
-
 const dotenv = require('dotenv');
 dotenv.config();
-
 const mongoose = require('mongoose');
 
 
